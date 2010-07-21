@@ -9,6 +9,10 @@ This plugin does the following for you:
 * Convert each result row into a hash with symbolized keys. Doing data lookups with Array indices is so C.
 * Free the result set after usage. I did not know this either, but now I won't have to remember it, either.
 
+I extracted this from code I wrote for a project that used MySql in Rails 2.3, so there it's being tested in production.
+
+As with all my Github projects: feedback in the form of bug reports (Github issues) or patches (Github pull requests) is welcome.
+
 Example
 =======
 
