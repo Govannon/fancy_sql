@@ -7,7 +7,7 @@ This plugin does the following for you:
 
 * Execute your SQL on the class's database connection.
 * Convert each result row into a hash with symbolized keys. Doing data lookups with Array indices is so C.
-* Free the result set after usage. I did not know this either, but now I won't have to remember it, either.
+* Free the result set after usage. I did not know this, but now I won't have to remember it. Code and forget.
 
 I extracted this from code I wrote for a project that used MySql in Rails 2.3, so there it's being tested in production.
 
